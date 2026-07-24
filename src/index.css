@@ -1,0 +1,40 @@
+/* =========================
+   Global reset & tokens
+   ========================= */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--color-text: rgb(244, 244, 244);
+	--color-text-muted: rgb(205, 204, 204);
+	--color-text-dark: rgb(20, 20, 20);
+	--color-accent: rgb(243, 191, 153);
+	--color-linkedin: rgb(80, 147, 226);
+	--color-card-bg: rgb(26, 27, 33);
+	--color-page-bg: rgb(35, 37, 44);
+	--color-footer-bg: rgb(22, 22, 25);
+	--color-icon: rgb(145, 142, 155);
+	--color-icon-hover: rgb(220, 220, 220);
+	--color-card-shadow: rgb(49, 49, 49);
+	--card-width: 317px;
+	--content-width: 247px;
+}
+
+/* =========================
+   Page layout
+   ========================= */
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: var(--color-page-bg);
+}
