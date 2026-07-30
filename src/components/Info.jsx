@@ -11,7 +11,7 @@ export default function Info() {
                 <img src={profileImage} alt="Profile image of Ronny" className="profile-image" />
                 <h2 className="name">Ronny Feghali</h2>
                 <h3 className="role">Frontend Developer</h3>
-                <h4 className="website">ronnyfeghali.website</h4>
+                <a href="https://ronnyfeghali-blog.netlify.app/" className="website">ronnyfeghali.blog</a>
 
                 <div className="info-buttons-container">
                     <a href="mailto:ronnyfeghali@outlook.com" className="email-btn btn">
